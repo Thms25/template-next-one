@@ -1,4 +1,13 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  images: {
+    domains: [],
+  },
+  logging: {
+    fetches: {
+      fullUrl: true,
+    },
+  },
+}
 
-export default nextConfig;
+export default nextConfig
